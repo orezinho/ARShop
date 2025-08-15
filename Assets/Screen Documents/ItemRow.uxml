@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Main" style="height: 180px; margin-left: 12px; margin-right: 12px; margin-top: 8px; margin-bottom: 8px; padding: 12px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(229, 231, 235); border-right-color: rgb(229, 231, 235); border-top-color: rgb(229, 231, 235); border-bottom-color: rgb(229, 231, 235); border-radius: 20px; background-color: rgb(255, 255, 255); display: flex; flex-direction: column; align-items: auto; column-gap: 12px; padding-bottom: 5px; padding-top: 5px; align-content: flex-start; align-self: auto; justify-content: space-between;">
+        <ui:VisualElement name="Content" style="height: 110px; margin-left: 12px; margin-right: 12px; margin-top: 8px; margin-bottom: 8px; padding: 12px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(229, 231, 235); border-right-color: rgb(229, 231, 235); border-top-color: rgb(229, 231, 235); border-bottom-color: rgb(229, 231, 235); border-radius: 20px; background-color: rgb(241, 241, 241); display: flex; flex-direction: row; align-items: center; column-gap: 12px; padding-bottom: 0; padding-top: 0; width: 301px; max-width: none; min-width: 68px; justify-content: space-around; align-self: center;">
+            <ui:Image name="thumb" style="width: 80px; height: 80px; border-radius: 8px; background-color: rgb(130, 130, 130);" />
+            <ui:VisualElement name="Labels" style="flex-grow: 1; display: flex; flex-direction: column; row-gap: 4px; padding-bottom: 20px; align-items: center; justify-content: space-between;">
+                <ui:Label name="title" style="color: rgb(15, 23, 42); font-size: 16px; unity-font-style: bold; -unity-font-style: bold;" />
+                <ui:Label name="price" style="color: rgb(87, 87, 87); font-size: 18px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button name="action" text="Ver" style="min-width: 68px; height: 40px; background-color: rgb(116, 41, 236); color: white; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-radius: 8px; align-self: auto; align-items: stretch; justify-content: flex-start; align-content: flex-start; width: 300px; font-size: 20px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>
