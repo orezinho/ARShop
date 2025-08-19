@@ -262,6 +262,10 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 436358034}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2512387469002778309, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1705194866}
     - targetCorrespondingSourceObject: {fileID: 2512387470319625119, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       insertIndex: -1
@@ -316,6 +320,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DeleteSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 903134815531184580, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 903134815531184580, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 903134815531184580, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2238489546461119397, guid: 14858355dbd094e43bb57fccbba3f440,
         type: 3}
@@ -441,6 +460,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeleteButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396179587559261060, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396179587559261060, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396179587559261060, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403971583237195188, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 75530306}
+    - target: {fileID: 5403971583237195188, guid: 14858355dbd094e43bb57fccbba3f440,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenLink
       objectReference: {fileID: 0}
     - target: {fileID: 9061275309258975212, guid: 14858355dbd094e43bb57fccbba3f440,
         type: 3}
@@ -855,6 +899,56 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 331264285}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1705194859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2512387469002778309, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+    type: 3}
+  m_PrefabInstance: {fileID: 331264285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1705194866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705194859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1001 &1896113907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -875,15 +969,363 @@ PrefabInstance:
       objectReference: {fileID: 436358033}
     - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
         type: 3}
+      propertyPath: data.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[0].Nome
+      value: Mouse Razer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[0].link
+      value: https://www.mercadolivre.com.br/mouse-gamer-razer-deathadder-essential-6400dpi-cor-preto-preto/p/MLB36531123?pdp_filters=item_id%3AMLB4085735563&from=gshop&matt_tool=52490821&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354547&matt_ad_group_id=173090629916&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882734891&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128188&matt_product_id=MLB36531123-product&matt_product_partition_id=2389848360845&matt_target_id=pla-2389848360845&cq_src=google_ads&cq_cmp=22090354547&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22090354547&gbraid=0AAAAAD93qcB72SFpXtvBeTvDf4QbYowHA&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC1VXiLFoAg0demKxlDyXv5f1H889jDbW6zF5gcHvYCFhmaaRF_EedhoCUI0QAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[1].Nome
+      value: Cadeira Gamer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[1].link
+      value: https://www.kabum.com.br/produto/594811/cadeira-gamer-fortt-trieste-ate-120kg-reclinavel-azul-cgf002-a?utm_id=22041504672&gad_source=4&gad_campaignid=22041506376&gbraid=0AAAAADx-HyGevbZO2fCH78nSRp-huUCyb&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC24qP-g500MKPsrcvsyslUX6fbF6ZX_nPtqHKdy-QKsfWhS6pOfxVRoCAlEQAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[2].Nome
+      value: Teclado Gamer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[2].link
+      value: https://shopee.com.br/product/557222716/12541227743?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkVHQ3ZkZSUTMrR3pBWmZZNzdrcnRBMW9VVVpGSTVUbUNaeGdhNTUxa3JhaEM4Q25mdVk0SmE3cTk3TmhvcWNsY1ZYQ0kyTU5vNndCcGNFck1zMm1YMTJCb1NZaGFJVUN6QjduNFE5bk1nc29xYXQwd01nc2w4OFZyVlUyc1hNek13PT0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[3].Nome
+      value: Microfone Dazz
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[3].link
+      value: https://www.kabum.com.br/produto/638956/microfone-hyperx-quadcast-2-compativel-com-pc-mac-e-consoles-cardioide-led-vermelho-preto-872v1aa?utm_id=22427039975&gad_source=4&gad_campaignid=22427039975&gbraid=0AAAAADx-HyHjuSRrZujNXzmE5F3X-L8Kz&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjhhUOyQObcEg2O1PuYTwvr3gW-lYhVaXrwRqYWWQ9xb0yvi202nD_RoCk30QAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[4].Nome
+      value: Nintendo Switch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[4].link
+      value: https://www.mercadolivre.com.br/console-nintendo-switch-11-32gb-mario-kart-8-deluxe/p/MLB27870141?pdp_filters=item_id%3AMLB3934653575&from=gshop&matt_tool=87533595&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354544&matt_ad_group_id=173090628236&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882734855&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128188&
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[5].Nome
+      value: Pen Drive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[5].link
+      value: https://produto.mercadolivre.com.br/MLB-3156754207-pendrive-sandisk-cruzer-glide-128gb-30-original-lacrado-_JM?searchVariation=176419859960#polycard_client=search-nordic&searchVariation=176419859960&position=33&search_layout=grid&type=item&tracking_id=8d3c3d1c-6f5a-40b7-b7a7-cc85f2500995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[6].Nome
+      value: PlayStation 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[6].link
+      value: https://www.mercadolivre.com.br/console-playstation-5-slim-edico-digital-1tb-branco-sony/p/MLB29001054?pdp_filters=item_id%3AMLB4147054213&from=gshop&matt_tool=20691730&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090193900&matt_ad_group_id=174661982764&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727914181198&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128188&matt_product_id=MLB29001054-product&matt_product_partition_id=2393412443972&matt_target_id=pla-2393412443972&cq_src=google_ads&cq_cmp=22090193900&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22090193900&gbraid=0AAAAAD93qcCkDjRF805_bqEcr6YK1zTdf&gclid=CjwKCAjw7_DEBhAeEiwAWKiCC00jPXcrq_l17Xxe2JtRHJrBKZJjdJwu2uo5vptsspPEL061E8URChoCroYQAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[7].Nome
+      value: Projetor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[7].link
+      value: https://www.mercadolivre.com.br/the-freestyle-samsung-projetor-smart-portatil-de-30-a-100-cor-branco/p/MLB27822797?pdp_filters=item_id%3AMLB3490783365&from=gshop&matt_tool=52490821&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354547&matt_ad_group_id=173090630356&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882734906&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098660&matt_product_id=MLB27822797-product&matt_product_partition_id=2387499471547&matt_target_id=pla-2387499471547&cq_src=google_ads&cq_cmp=22090354547&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22090354547&gbraid=0AAAAAD93qcBq0q8K_JxlSVVsg9M3ujEuj&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjrELZEGW6hMv2YvI6vHAQicz8M2fnH8xLZVR0ziEwMo8mrK4njNhvRoCJfsQAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[8].Nome
+      value: "Rob\xF4 Aspirador"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[8].link
+      value: https://www.kabum.com.br/produto/906751/robo-aspirador-robot-vacuum-x10-?utm_id=21434223541&gad_source=1&gad_campaignid=21423803016&gbraid=0AAAAADx-HyGC3J_dEBTXbYKZDpfm4E1ou&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjseMqeSN5aGYYk9JRs6d521m_6sCiUPMhZTjXIDDhdaYkMDVRTat9xoCWEEQAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[9].Nome
+      value: Monitor Samsung
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[9].link
+      value: https://www.kabum.com.br/produto/613319/monitor-gamer-curvo-samsung-odyssey-49-oled-super-ultrawide-240hz-0-03ms-hdmi-e-dp-freesync-premium-prata-ls49cg930slmzd?utm_id=22422865812&gad_source=1&gad_campaignid=22422865812&gbraid=0AAAAADx-HyFU72DIoS7W-xlMSZ3ZVy5F-&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjuiXz3Lvszi5apyHyt_umYarUDlGyBSWOQBG4nIYdS5klQg8zxctYxoCBg4QAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[0].Preco
+      value: 210.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[10].Nome
+      value: Xbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[10].link
+      value: https://www.mercadolivre.com.br/microsoft-xbox-series-x-1tb/p/MLB16160759?pdp_filters=item_id%3AMLB3861581821&from=gshop&matt_tool=87533595&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354544&matt_ad_group_id=173090628236&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882734855&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098660&matt_product_id=MLB16160759-product&matt_product_partition_id=2389681403470&matt_target_id=pla-2389681403470&cq_src=google_ads&cq_cmp=22090354544&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22090354544&gbraid=0AAAAAD93qcCE8DS_fx95cG155vrtfGS8-&gclid=CjwKCAjwkvbEBhApEiwAKUz6-z5nmiwsOEXQ2CUOVTtyKJGf7M6TncmUR7OgxBVJxrAzGH8gjSnXNBoCnBAQAvD_BwE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[11].Nome
+      value: TV Samsung Neo QLED
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[11].link
+      value: https://www.casasbahia.com.br/smart-tv-43-4k-samsung-gaming-neo-qn43qn90d-qled-processador-com-ai-dolby-atmos-alexa-built-in-upscaling-4k-wi-fi-bluetooth-usb-e-hdmi/p/55066180?utm_medium=Cpc&utm_source=google_freelisting&IdSku=55066180&idLojista=10037&tipoLojista=1P&srsltid=AfmBOoo-QF9Ct8FQY58M-L-MZgyJ8bpSQ4RCrbjKFKiRlu7vGy6xhvjz1fA
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[12].Nome
+      value: TV Samsung Neo QLED
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[12].link
+      value: https://www.casasbahia.com.br/smart-tv-43-4k-samsung-gaming-neo-qn43qn90d-qled-processador-com-ai-dolby-atmos-alexa-built-in-upscaling-4k-wi-fi-bluetooth-usb-e-hdmi/p/55066180?utm_medium=Cpc&utm_source=google_freelisting&IdSku=55066180&idLojista=10037&tipoLojista=1P&srsltid=AfmBOoo-QF9Ct8FQY58M-L-MZgyJ8bpSQ4RCrbjKFKiRlu7vGy6xhvjz1fA
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[13].Nome
+      value: "Televis\xE3o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[1].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[2].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[3].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[4].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[5].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[6].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[7].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[8].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[9].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
       propertyPath: data.Array.data[0].Objeto
       value: 
-      objectReference: {fileID: 5811970893536397571, guid: 13241d599ff10413498d04c6d683ca10,
+      objectReference: {fileID: 55791286872346799, guid: 2805f73d4cddf164eb3a4a70159ed654,
         type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[10].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[11].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[12].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[13].Preco
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
         type: 3}
       propertyPath: data.Array.data[1].Objeto
       value: 
-      objectReference: {fileID: 613292779795284151, guid: ebd7292e888c84f05924605e51048072,
+      objectReference: {fileID: 1927978216556020910, guid: 297367e3cb5172240bc06017aacd62c3,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[2].Objeto
+      value: 
+      objectReference: {fileID: 7640983530887919426, guid: 43f74cba963fc4142acb7a633cfa4b9c,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[3].Objeto
+      value: 
+      objectReference: {fileID: 8332013296861011299, guid: 463b67ea9198c8040b12c581767e66ee,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[4].Objeto
+      value: 
+      objectReference: {fileID: 4955282714760492872, guid: bf4990c7c338def4ab2fe4fb439136d6,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[5].Objeto
+      value: 
+      objectReference: {fileID: 641805103628613142, guid: cdc3dc71e78e41d41a0641d29b992ece,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[6].Objeto
+      value: 
+      objectReference: {fileID: 302357956172039949, guid: 1b8360813c2f1a04f8b206182496c911,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[7].Objeto
+      value: 
+      objectReference: {fileID: 8954863970029401038, guid: 501d2b3a7abecb047b173fa3416cf821,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[8].Objeto
+      value: 
+      objectReference: {fileID: 1134597754332239238, guid: d026365ea60d80f45a627e7fe15c6ed0,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[9].Objeto
+      value: 
+      objectReference: {fileID: 7104513623603745690, guid: 401849afe0bfbc044817d6002cb3b66e,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[10].Objeto
+      value: 
+      objectReference: {fileID: 8459157047932587113, guid: 7420e099f36171a4db8987e841f99286,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[11].Objeto
+      value: 
+      objectReference: {fileID: 4053223950468421134, guid: 39e43756f69c0d04289fd9d837429a0d,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[12].Objeto
+      value: 
+      objectReference: {fileID: 2527309074791092359, guid: a6cf304c8dade964f8410fd3c4463624,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[13].Objeto
+      value: 
+      objectReference: {fileID: 8180924316132149622, guid: 7cc36e461f427e347ab5936812439d89,
+        type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[0].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 2b988f62282acf247be1946abe0e0cee, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[1].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: aa55d59a74cd88d4ba2d0de1795d2b25, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[2].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 27df3dd679f67e5478d685fcb8918d39, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[3].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: bbb379ec19bcffa48bb3ceb6c4425c33, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[4].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 479fccd03a6dc234ea2d35a3c09ab521, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[5].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: e27d103cb98d1f04daba010efd561dea, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[6].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 653b11e4acf0f6f4aa7b3e9c3b381c81, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[7].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: ffe5dce2e1d4b524693c1cc3462537c7, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[8].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 81a47f66f0453e8498b7e0d0b765f03b, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[9].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: c671d9c6fae367f41a79083b1aa93566, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[10].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 15e91313b1de6414a96afc3fb4e72d50, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[11].imagemExibicao
+      value: 
+      objectReference: {fileID: 2800000, guid: 30d7949a0fea8b14a9a47a822b25b4f6, type: 3}
+    - target: {fileID: 1775647649130350694, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
+        type: 3}
+      propertyPath: data.Array.data[12].imagemExibicao
+      value: 
+      objectReference: {fileID: 21300000, guid: e23fda6ea23e2804583a31e20f44952a,
         type: 3}
     - target: {fileID: 1799171610281806218, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
         type: 3}
@@ -943,7 +1385,7 @@ PrefabInstance:
     - target: {fileID: 4725053787263061239, guid: ca10d5af3d93cc344b7c9bc89d0e4017,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -975,7 +1417,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactor: {fileID: 331264286}
-  selectedObject: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

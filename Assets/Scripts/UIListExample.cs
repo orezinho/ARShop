@@ -9,8 +9,7 @@ public class UIListExample : MonoBehaviour
     public class ItemData
     {
         public string Nome;
-        public float Preco;
-        public Sprite imagemExibicao;
+        public Texture2D imagemExibicao;
         public GameObject Objeto;
         public string link;
     }
@@ -35,43 +34,31 @@ public class UIListExample : MonoBehaviour
         sv.elasticity = 0f;
 
         list.itemsSource = data;
-
         list.fixedItemHeight = 180;
+
         list.makeItem = () => itemRowTemplate.CloneTree();
 
         list.bindItem = (ve, i) =>
         {
             var d = data[i];
-            var img = ve.Q<Image>("thumb");
+            var btn = ve.Q<Button>();
 
-            ve.pickingMode = PickingMode.Ignore;
-            ve.RegisterCallback<PointerDownEvent>(e => e.StopImmediatePropagation());
-            ve.RegisterCallback<PointerUpEvent>(e => e.StopImmediatePropagation());
-            ve.RegisterCallback<ClickEvent>(e => e.StopImmediatePropagation());
-
-            if (img != null && d.imagemExibicao != null)
-            {
-                img.image = d.imagemExibicao.texture;
-                img.scaleMode = ScaleMode.StretchToFill;
-            }
-            else
-            {
-                img.image = null;
-            }
-
-            ve.Q<Label>("title").text = d.Nome;
-            ve.Q<Label>("price").text = $"R$: " + d.Preco.ToString("F2");
-
-            var btn = ve.Q<Button>("action");
-            
             if (btn.userData is System.Action old)
                 btn.clicked -= old;
 
             System.Action action = () => ClickItem(d);
             btn.userData = action;
             btn.clicked += action;
-        };
 
+            if (d.imagemExibicao != null)
+            {
+                btn.style.backgroundImage = new StyleBackground(d.imagemExibicao);
+            }
+            else
+            {
+                btn.style.backgroundImage = null;
+            }
+        };
     }
 
     public void ClickItem(ItemData item)

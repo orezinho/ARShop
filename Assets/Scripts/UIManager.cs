@@ -42,5 +42,6 @@ public class UIManager : MonoBehaviour
     public string url;
     public void OpenLink() {
         Application.OpenURL(url);
+        Debug.Log("Link aberto!");
     }
 }

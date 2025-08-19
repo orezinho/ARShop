@@ -2,10 +2,12 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
+[RequireComponent(typeof(XRBaseInteractor))]
 public class ARObjectSelector : MonoBehaviour
 {
     public XRBaseInteractor interactor;
-    public GameObject selectedObject;
+
+    private GameObject selectedObject;
 
     void OnEnable()
     {
